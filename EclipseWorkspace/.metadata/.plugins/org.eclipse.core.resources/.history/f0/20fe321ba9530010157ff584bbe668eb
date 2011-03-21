@@ -15,7 +15,7 @@ public class division {
 		System.out.println("a="+a+" b="+b);
 		e = a/b;
 		r = a%b;
-		System.out.println("Ergebnis: "+e+ "  xRest: "+r);
+		System.out.println("Ergebnis: "+e+ "  Rest: "+r);
 	}
 
 }
