@@ -1,0 +1,25 @@
+
+public class Studentenausweis {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String name;
+		int mat_nr;
+		System.out.println("Name:");
+
+		name = SimpleIO.getString();
+		System.out.println("Mat-Nr:");
+
+		mat_nr = SimpleIO.getInt();
+		System.out.println("----------------------------");
+		System.out.println("RWTH Aachen Studentenausweis");
+		System.out.println("Name: " + name);
+		System.out.println("Matr. Nr.: " + mat_nr);
+		System.out.println("-----------------------------");
+
+	}
+
+}

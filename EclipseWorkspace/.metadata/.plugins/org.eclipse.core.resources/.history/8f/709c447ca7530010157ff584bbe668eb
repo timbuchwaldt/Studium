@@ -1,0 +1,14 @@
+
+public class ZahlenVertauschen {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		int a,b;
+		// TODO Auto-generated method stub
+		System.out.println("A:");
+		a = SimpleIO.getInt();
+	}
+
+}
