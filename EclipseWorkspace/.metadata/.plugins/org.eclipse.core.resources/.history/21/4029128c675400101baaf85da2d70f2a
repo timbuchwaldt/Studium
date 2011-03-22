@@ -1,0 +1,9 @@
+
+public class a52 {
+	public static void main(){
+		int n,k;
+		System.out.println("Bitte Zahl der Schritte eingeben:");
+		n = SimpleIO.getInt();
+		for(k<=n, k++, k=1 )
+	}
+}

@@ -1,0 +1,16 @@
+
+public class a32d {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		int a,b;
+		System.out.println("Bitte Zahl 1 eingeben");
+		a = SimpleIO.getInt();
+		System.out.println("Bitte Zahl 2 eingeben");
+		b = SimpleIO.getInt();
+		System.out.println("Das Maximum ist" + Math.max(a, b));
+	}
+
+}

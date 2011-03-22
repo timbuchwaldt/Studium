@@ -1,0 +1,16 @@
+
+public class a41 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		int a,b,x;
+		System.out.println("Wie viele Zahlen wollen Sie eingeben?");
+		a = SimpleIO.getInt();
+		for(x=0;x<a;x++){
+			
+		}
+	}
+
+}

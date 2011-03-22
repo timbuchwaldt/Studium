@@ -1,0 +1,8 @@
+public class a53 {
+	public static void main(String[] args) {
+		String z;
+		z = "Drei Chinesen mit dem Kontrabass";
+		z = z.replace('a', 'o').replace('e', 'o').replace('i','o').replace('u', 'o');
+		System.out.println(z);
+	}
+}

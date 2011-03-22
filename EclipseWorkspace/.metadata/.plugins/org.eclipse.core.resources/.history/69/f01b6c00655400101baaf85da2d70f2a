@@ -1,0 +1,15 @@
+
+public class a32e {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		int  choice;
+		double result;
+		// TODO Auto-generated method stub
+		System.out.print("== Einheitenkonvertierung == \n (1) Celsius -> Fahrenheit \n (2) Fahrenheit -> Celsius \n Bitte wŠhlen:");
+		
+	}
+
+}

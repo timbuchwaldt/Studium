@@ -1,0 +1,15 @@
+
+public class a53 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String z;
+		z = "Drei Chinesen mit dem Kontrabass";
+		z.replace('a', 'o').replace('e', 'o').replace('i','o').replace('u', 'o');
+		System.out.println(z);
+	}
+
+}

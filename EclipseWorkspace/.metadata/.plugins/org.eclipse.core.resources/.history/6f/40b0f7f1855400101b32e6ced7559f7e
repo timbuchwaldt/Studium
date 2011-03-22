@@ -1,0 +1,11 @@
+
+public class a41 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		int a,b;
+	}
+
+}
