@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="32" version="2.0">
 <workbenchAdvisor/>
-<window height="670" width="1024" x="0" y="22">
+<window height="670" width="1024" x="230" y="22">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -19,6 +19,7 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="152" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -35,13 +36,13 @@
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="a53.java" partName="a53.java" path="/Users/timbuchwaldt/Dropbox/Studium/Programmieren/EclipseWorkspace/VorkursWilkommen/src/a53.java" title="a53.java" tooltip="VorkursWilkommen/src/a53.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/VorkursWilkommen/src/a53.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="148" selectionTopPixel="0"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="a41.java" partName="a41.java" path="/Users/timbuchwaldt/Dropbox/Studium/Programmieren/EclipseWorkspace/VorkursWilkommen/src/a41.java" title="a41.java" tooltip="VorkursWilkommen/src/a41.java" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="a41.java" partName="a41.java" path="/Users/timbuchwaldt/Dropbox/Studium/Programmieren/EclipseWorkspace/VorkursWilkommen/src/a41.java" title="a41.java" tooltip="VorkursWilkommen/src/a41.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/VorkursWilkommen/src/a41.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="374" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.ClassFileEditor" name="AppleDNSSD.class" partName="AppleDNSSD.class" title="AppleDNSSD.class" tooltip="com.apple.dnssd.AppleDNSSD" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" org.eclipse.jdt.ui.ClassFileIdentifier="=VorkursWilkommen/\/System\/Library\/Java\/Extensions\/dns_sd.jar&lt;com.apple.dnssd(AppleDNSSD.class"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -251,10 +252,8 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/VorkursWilkommen/src/a53.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/VorkursWilkommen/src/a41.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/VorkursWilkommen/src/a32d.java"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=VorkursWilkommen/\/System\/Library\/Java\/Extensions\/dns_sd.jar&lt;com.apple.dnssd(AppleDNSSD.class"/>
 </editors>
-<item historyLabel="quadrat.java" index="0">
-<position info="not_deleted" x="0" y="0"/>
-</item>
 <item historyLabel="quadrat.java" index="0">
 <position info="not_deleted" x="238" y="0"/>
 </item>
@@ -399,8 +398,11 @@
 <item historyLabel="a41.java" index="10">
 <position info="not_deleted" x="290" y="0"/>
 </item>
-<item active="true" historyLabel="a41.java" index="10">
+<item historyLabel="a41.java" index="10">
 <position info="not_deleted" x="369" y="0"/>
+</item>
+<item active="true" historyLabel="AppleDNSSD.class" index="12">
+<position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -419,6 +421,9 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="AppleDNSSD.class" tooltip="com.apple.dnssd.AppleDNSSD">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=VorkursWilkommen/\/System\/Library\/Java\/Extensions\/dns_sd.jar&lt;com.apple.dnssd(AppleDNSSD.class"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="a32d.java" tooltip="VorkursWilkommen/src/a32d.java">
 <persistable path="/VorkursWilkommen/src/a32d.java"/>
 </file>
@@ -460,9 +465,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SimpleIO.java" tooltip="VorkursWilkommen/src/SimpleIO.java">
 <persistable path="/VorkursWilkommen/src/SimpleIO.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Studentenausweis.java" tooltip="VorkursWilkommen/src/Studentenausweis.java">
-<persistable path="/VorkursWilkommen/src/Studentenausweis.java"/>
 </file>
 </mruList>
 </workbench>

@@ -31,9 +31,9 @@ public final class SimpleIO {
 
 	public static int[] getRandomIntArray() {
 		Random r = new Random();
-		int[] randomArray = new int[(r.nextInt() % 10)];
+		int[] randomArray = new int[(r.nextInt(100) % 10)];
 		for (int i = 0; i < randomArray.length; i++) {
-			randomArray[i] = (r.nextInt() % 100);
+			randomArray[i] = (r.nextInt(100) % 100);
 		}
 		return randomArray;
 	}

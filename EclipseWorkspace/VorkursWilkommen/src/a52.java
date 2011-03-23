@@ -3,8 +3,8 @@ public class a52 {
 		double n,k,sum;
 		System.out.println("Bitte Zahl der Schritte eingeben:");
 		n = SimpleIO.getDouble();
-		sum = 0;
-		for(k=1; k<=n; k = k+1 ){
+		sum = 0.0;
+		for(k=1.0; k<=n; k++ ){
 			sum += 1/(k*k);
 		}
 		sum = Math.sqrt(sum*6);
